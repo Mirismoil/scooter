@@ -1,0 +1,104 @@
+.faqs-inner{
+    margin-top: 100px;
+
+    &__title{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2.14286px;
+        color: #495567;
+    }
+}
+
+.inner-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+   
+
+    &__left{
+         width: 350px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.78571px;
+        color: #495567;
+    }
+
+
+    &__1{
+        position: relative;
+        background: #F2F5F9;
+        padding: 32px 40px;
+        max-width: 730px;
+        margin-bottom: 16px;
+    }
+
+    &__2{
+        position: relative;
+        background: #F2F5F9;
+        padding: 32px 40px;
+        max-width: 730px;
+        margin-bottom: 16px;
+        
+    }
+
+    &__3{
+        position: relative;
+        background: #F2F5F9;
+        padding: 32px 40px;
+        max-width: 730px;
+        
+    }
+
+    &__title{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+
+       
+
+    }
+
+    &__strelka{
+        position: absolute;
+        right: 45px;
+        top: 37px;
+    }
+
+    &__strelka2{
+        transform: rotate(180deg);
+        position: absolute;
+        right: 45px;
+        top: 37px;
+    }
+
+    &__strelka3{
+        transform: rotate(180deg);
+        position: absolute;
+        right: 45px;
+        top: 37px;
+    }
+
+    
+
+
+    &__desc{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        
+        color: #495567;
+    }
+}

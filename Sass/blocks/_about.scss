@@ -1,0 +1,49 @@
+.about {
+  position: relative;
+    
+  &-img {
+    position: absolute;
+   
+    width: 100%;
+    z-index: -1;
+  }
+  &-title {
+    margin: 0;
+    padding: 0;
+    padding-top: 72px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #ffffff;
+    z-index: 10;
+  }
+
+  &-bottom{
+    margin-top: 120px;
+  }
+}
+.container-about{
+  margin-bottom: 120px;
+  margin-top: 170px;
+}
+.use__arrow2 {
+  position: absolute;
+  left: 0;
+  top: 908px
+
+}
+
+.right__img{
+  position: absolute;
+  top: 274px;
+  right: 0;
+  
+  &1{
+    position: absolute;
+    top: 750px;
+    left: 0px;
+
+  }
+}
